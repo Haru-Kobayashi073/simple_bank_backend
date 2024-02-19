@@ -52,3 +52,7 @@
 
 - transaction
   - 関連する複数の処理を一つの処理として実行・管理する仕組みを「トランザクション処理」
+
+### part9
+- handle deadlock
+  - psqlでNO KEYと指定すると、ID列を更新しないとpsqlに知らせることができる（？
