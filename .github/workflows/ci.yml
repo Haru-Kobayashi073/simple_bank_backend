@@ -33,12 +33,12 @@ jobs:
           go-version: ^1.15
         id: go
 
-      - name: Check out code into the GO module directory
+      - name: Check out code into the G module directory
         uses: actions/checkout@v2
 
       - name: Install Go-lang migrate
         run: |
-          curl -L https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.linux-arm64.tar.gz | tar xvz
+          curl -L https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.linux-amd64.tar.gz | tar xvz
           sudo mv migrate /usr/bin/migrate 
           which migrate
 
