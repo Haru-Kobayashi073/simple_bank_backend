@@ -48,9 +48,9 @@ jobs:
       - name: set .env
         run: |
           touch app.env
-          echo "DB_DRIVER=$DB_DRIVER" >> app.env
-          echo "DB_SOURCE=$DB_SOURCE" >> app.env
-          echo "SERVER_ADDRESS=$SERVER_ADDRESS" >> app.env
+          echo "DB_DRIVER=${{ vars.DB_DRIVER }}" >> app.env
+          echo "DB_SOURCE=${{ vars.DB_SOURCE }}" >> app.env
+          echo "SERVER_ADDRESS=${{ vars.SERVER_ADDRESS }}" >> app.env
           cat -e app.env
 
       - name: Test
