@@ -14,7 +14,7 @@ require (
 	github.com/spf13/viper v1.7.1
 	github.com/stretchr/testify v1.6.1
 	github.com/ugorji/go v1.1.12 // indirect
-	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897 // indirect
+	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897
 	golang.org/x/sys v0.0.0-20201017003518-b09fb700fbb7 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
